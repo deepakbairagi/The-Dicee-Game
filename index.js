@@ -6,7 +6,7 @@ document.querySelector(".img1").setAttribute("src",randomImgSource);
 
 // For Dicee 2
 var randomNumber2=Math.floor(Math.random()*6)+1;
-var randomImg2="dice"+randomNumber1+".png";
+var randomImg2="dice"+randomNumber2+".png";
 var randomImgSource2="images/"+randomImg2;
 document.querySelector(".img2").setAttribute("src",randomImgSource2);
 
